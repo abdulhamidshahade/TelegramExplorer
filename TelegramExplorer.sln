@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35825.156 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TelegramExplorer.Services", "TelegramExplorer.Services", "{2B2C908C-AFD4-44E1-9390-8A9672E783BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.PublicChannelAPI", "src\TelegramExplorer.Services\Services.PublicChannelAPI\Services.PublicChannelAPI.csproj", "{CC34C7C6-509F-4475-AEAD-696E7B87EA9A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC34C7C6-509F-4475-AEAD-696E7B87EA9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC34C7C6-509F-4475-AEAD-696E7B87EA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC34C7C6-509F-4475-AEAD-696E7B87EA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC34C7C6-509F-4475-AEAD-696E7B87EA9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B2C908C-AFD4-44E1-9390-8A9672E783BF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{CC34C7C6-509F-4475-AEAD-696E7B87EA9A} = {2B2C908C-AFD4-44E1-9390-8A9672E783BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A71C34E9-9DA3-478D-B573-449593FB685D}
